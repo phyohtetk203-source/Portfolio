@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio and projects">
+  <title>Phyo Htet Kyaw | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">PHK<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR LEARNING & OPPORTUNITIES</p>
+        <h1>Hi, I'm <span>Phyo Htet Kyaw.</span><br> aspiring developer.</h1>
+        <p class="hero-text">I enjoy building simple, useful applications and turning ideas into working projects. This portfolio showcases my skills and what I'm learning.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore projects <span>↗</span></a><a class="button secondary" href="#contact">Get in touch</a></div>
+        <div class="hero-meta"><div><strong>02</strong><span>Small projects</span></div><div><strong>01</strong><span>Curious mind</span></div><div><strong>∞</strong><span>Things to learn</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative developer illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card"><div class="window-dots"><i></i><i></i><i></i></div><p><span class="pink">const</span> developer = {</p><p class="indent">name: <span class="green">'Phyo Htet Kyaw'</span>,</p><p class="indent">passion: <span class="green">'building'</span>,</p><p class="indent">learning: <span class="green">true</span></p><p>};</p><div class="cursor-line">▍</div></div>
+        <div class="floating-tag tag-top"> &lt;/&gt; Clean code</div><div class="floating-tag tag-bottom">✦ Keep learning</div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-label">01 / ABOUT ME</div>
+      <div class="section-content"><h2>Learning by <span>building.</span></h2><p class="lead">I'm a student and aspiring software developer who likes exploring programming, solving problems, and creating practical applications.</p><p>I'm currently growing my skills through hands-on projects. My goal is to write clearer code, understand software development fundamentals, and keep improving one project at a time.</p></div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-label">02 / SKILLS</div>
+      <div class="section-content"><h2>Tools in my <span>toolkit.</span></h2><div class="skills-grid">
+        <div class="skill"><span class="skill-icon">H</span><div><strong>HTML</strong><small>Page structure</small></div></div>
+        <div class="skill"><span class="skill-icon">C</span><div><strong>CSS</strong><small>Layout & styling</small></div></div>
+        <div class="skill"><span class="skill-icon">JS</span><div><strong>JavaScript</strong><small>Interactive UI</small></div></div>
+        <div class="skill"><span class="skill-icon">G</span><div><strong>Git & GitHub</strong><small>Version control</small></div></div>
+      </div><p class="hint">Edit this section to reflect the technologies you actually know.</p></div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-label">03 / SELECTED WORK</div>
+      <div class="section-content"><div class="projects-heading"><div><h2>Small projects, <span>real practice.</span></h2><p class="lead">A couple of mini apps to demonstrate front-end fundamentals.</p></div><span class="project-count">02 PROJECTS</span></div>
+        <div class="project-grid">
+          <article class="project-card"><div class="project-visual todo-visual"><div class="mini-window"><div class="mini-top">● ● ● <span>today.md</span></div><div class="mini-task checked">✓ <span>Review notes</span></div><div class="mini-task">○ <span>Build a project</span></div><div class="mini-task">○ <span>Read for 20 min</span></div><div class="mini-add">+ Add a task</div></div></div><div class="project-info"><div class="project-type">PRODUCTIVITY · 01</div><h3>Task Tracker</h3><p>Add tasks, mark them complete, and remove items. Your tasks stay saved in the browser.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="projects/todo.html">Open project <span>↗</span></a></div></article>
+          <article class="project-card"><div class="project-visual calc-visual"><div class="calculator-preview"><div class="calc-small">QUICK CALC</div><div class="calc-screen">2,048</div><div class="calc-buttons"><i>AC</i><i>±</i><i>%</i><i class="op">÷</i><i>7</i><i>8</i><i>9</i><i class="op">×</i><i>4</i><i>5</i><i>6</i><i class="op">−</i><i>1</i><i>2</i><i>3</i><i class="op">+</i><i class="wide">0</i><i>.</i><i class="equals">=</i></div></div></div><div class="project-info"><div class="project-type">UTILITY · 02</div><h3>Mini Calculator</h3><p>A clean calculator for everyday arithmetic, with keyboard-friendly input and clear/reset controls.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="projects/calculator.html">Open project <span>↗</span></a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact"><div class="contact-copy"><div class="section-label">04 / CONTACT</div><h2>Have an idea?<br><span>Let's connect.</span></h2><p>I'm open to feedback, collaboration, and opportunities to learn.</p></div><div class="contact-panel"><p class="contact-label">EMAIL</p><a href="mailto:your.email@example.com">your.email@example.com ↗</a><p class="contact-label">GITHUB</p><a href="https://github.com/your-username" target="_blank" rel="noreferrer">github.com/your-username ↗</a><p class="hint">Replace these placeholders with your real contact details.</p></div></section>
+  </main>
+  <footer><a class="logo" href="#home">PHK<span>.</span></a><p>Designed & built with curiosity.</p><span>© <span id="year"></span> Phyo Htet Kyaw</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
